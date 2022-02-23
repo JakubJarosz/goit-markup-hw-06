@@ -351,6 +351,18 @@
                     </li>
                 </ul>
             </div>
+            <div class="rightrightfoot">
+                <label class="label">
+                    <p class="footerp">Zapisz się do newslettera</p>
+                    <div class="mainpositionfooter">
+                    <input class="inputfooter" type="email" name="useremailfooter" placeholder="E-mail">
+                    <div class="buttonpositionfooter">
+                    <button class="sighinbutton" type="submit">Zapisz się</button>
+                    <svg class="svgfootersend"><use href="./images/sendicon.svg#icon-paper-plane"></use></svg>
+                    </div>
+                    </div>
+                </label>
+            </div>
         </div>
 
     </footer>
@@ -358,6 +370,43 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close><svg class="xbotton"><use href="./images/icons2.svg#icon-x"></use></svg></button>
+            <form class="form">
+                <div class="form-group" role="group">
+                    <p class="form-group-title">Zostaw swoje dane w formularzu poniżej</p>
+                <label class="label">
+                    <p class="modalp">Imie</p>
+                    <div class="divboxmodual">
+                    <input class="inputmodual" type="text" name="username">
+                    <svg class="svgmodual"><use href="./images/modal-svg.svg#icon-user" width="15px" height="15px"></use></svg>
+                    </div>
+                </label>
+                <label class="label">
+                    <p class="modalp">Telefon</p>
+                    <div class="divboxmodual">
+                    <input class="inputmodual"  type="text" name="telephone">
+                    <svg class="svgmodual"><use href="./images/modal-svg.svg#icon-phone" width="15px" height="15px"></use></svg>
+                    </div>
+                </label>
+                <label class="label">
+                    <p class="modalp">Email</p>
+                    <div class="divboxmodual">
+                    <input class="inputmodual" type="email" name="useremail">
+                    <svg class="svgmodual"><use href="./images/modal-svg.svg#icon-mail-envelope-closed" width="20px" height="20px"></use></svg>
+                    </div>
+                </label>
+                <label>
+                    <p class="modalp">Komentarz</p>
+                    <textarea name="feedback" rows="6" placeholder="Wprowadź tekst"></textarea>
+                </label>
+                <label>
+                    <input class="aaa visually-hidden" type="checkbox" name="checkboxaccept" value="accept" >
+                    <p class="rules">Oświadczam iż akceptuję <span class="spancolor">Regulamin</span> i <span class="spancolor"> Politykę Prywatności.</span></p>
+                </label>
+                <div class="submitdiv">
+                <button class="submitbutton" type="submit">Wyślij</button>    
+                </div>
+                </div>
+            </form>
         </div>
     </div>
 
